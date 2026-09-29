@@ -1,0 +1,3 @@
+duckdb>=1.2
+pandas>=2.2   # used by scripts/check_results.py to print tables
+pytest>=8     # tests/

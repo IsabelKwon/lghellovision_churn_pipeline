@@ -1,0 +1,40 @@
+# ===== 데이터 (외부 공개 불가 → 절대 커밋하지 않음) =====
+# 원본(raw), 정제(clean), 마트(mart), DuckDB 임시 파일(_duckdb_tmp) 전부
+data/
+*.csv
+*.parquet
+*.duckdb
+*.duckdb.wal
+
+# ===== 실행 기록 =====
+# 로그와 품질 리포트에는 내 컴퓨터 경로와 실제 데이터 건수가 들어 있음
+logs/
+*.log
+
+# ===== 문서·포트폴리오 이미지 =====
+docs/
+
+# ===== 파이썬 / 테스트가 자동으로 만드는 파일 =====
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ===== 가상환경 =====
+.venv/
+venv/
+
+# ===== 임시 폴더 =====
+.tmp/
+tmp/
+
+# ===== 비밀값 (지금은 없지만 나중에 생길 수 있음) =====
+.env
+.env.*
+
+# ===== 에디터 / OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
